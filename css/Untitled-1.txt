@@ -1,0 +1,109 @@
+<div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-12 text-center "> <img src="images/logohd.jpg" class="img-fluid " style="width: 400px;" alt=""> </div>
+      <div class="col-lg-6 col-12">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+              <h3>Login</h3>
+              <form class="">
+                <div class="">
+                  
+                  <input type="text" class="form-control ic   " id="title" aria-describedby="text" placeholder="Username">
+  
+                </div>
+                <div class="">
+                  
+                  <input type="password" class="form-control " id="subject" placeholder="Password">
+                </div>
+                
+              </form>
+            </diV>
+      </div>
+    </div>
+  </div>
+      
+        </div>   
+        </div>    
+          
+        ==============================
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--Bootstrap5 CSS link-->
+  <link rel="stylesheet" href="Bootstrap5/css/bootstrap.min.css">
+  <!--Fontawsome  links-->
+  
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+  <!--local css links-->
+  <!-- <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ResponsiveStyle.css"> -->
+</head>
+<style>
+ .input {
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ccc;
+    background-color: aquamarine;
+}
+</style>
+<body>
+  
+  
+<section class="index-Wrapper">
+  <div class="container mlogin ">
+    <div class="row justify-content-center align-items-center ">
+      <div class=" col-md-6">
+<img src="images/logohd.jpg" class="img-fluid x-4" alt="">
+      </div>
+      <div class=" col-md-6">
+       
+<div class="form-info mt-5 " action="/action_page.php">
+<h1 class="text-center">Log in</h1>
+<p class="text-center"> Super Admin</p>
+</div>
+         
+          <div class="mb-4 d-flex justify-content-center  ">
+            
+            <input type="text" class="form-control w-75" id="formGroupExampleInput" placeholder="Username">
+          </div>
+          <div class="mb-4 d-flex justify-content-center">
+          
+            <input type="email" class="form-control w-75 " id="formGroupExampleInput2" placeholder="Email">
+          </div>
+          <div class="text-center">
+          <a href="Home.html" class="btn main-btn " role="button" aria-pressed="true">Long IN</a>
+
+          </div>
+      </div>
+      
+    </div>
+
+</div>
+  </section>
+ 
+        
+   
+
+
+    
+
+  <!---Javascript links-->
+ 
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js "></script>
+  <!---Bootstrap5 javscript link-->
+  <script src="Bootstrap5/js/bootstrap.min.js"></script>
+  <!--local javascript link-->
+  <script src="js/main.js"></script>
+  <!---Jquery link-->
+  <script src="js/jquery.js"></script>
+</body>
+
+</html>

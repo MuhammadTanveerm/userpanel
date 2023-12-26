@@ -1,0 +1,232 @@
+/*Table of contennt*
+1. General Css
+2 Index page
+3.Home
+4.
+*/
+
+
+/*=== General Css ===*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  color: var(--color-danger);
+
+}
+
+:root {
+
+  --bg-white: #fff;
+
+  --color-danger: #A32727;
+  --text-danger: #A32727;
+
+
+}
+
+
+html {
+  height: 100%
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 20%;
+}
+
+
+.navbar {
+  background-color: var(--color-danger);
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: aliceblue;
+  padding-right: 40px;
+  font-size: 15px;
+}
+
+.navbar-toggler{
+ background-color: var(--bg-white);
+}
+
+.df li {
+  color: var(--text-danger);
+  font-weight: 500;
+}
+
+.fa-arrow-left {
+  color: var(--color-danger);
+  font-size: 2rem;
+
+}
+
+/*=== Index page === */
+
+.main{
+  margin-top: 50px;
+}
+.main .form-control{
+  border: 4px solid var(--text-danger);
+   border-radius:30px;
+}
+.footerindex{
+  margin-top: auto;
+  color:var(--text-danger )
+}
+/* === New Document page ===*/
+.Document-Wrapper {
+
+  color: var(--color-danger);
+  font-weight: 500;
+}
+
+h1 {
+  color: var(--text-danger);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.Document-Wrapper .sa i {
+  font-size: 100px;
+  color: black;
+}
+
+
+
+.profile-footer footer{
+  margin-top:120px;
+  color:var(--color-danger);
+ 
+}
+/* === Home page ===*/
+
+footer .fa-right-from-bracket {
+  font-size: 50px;
+  color: black;
+}
+footer .fa-right-from-bracket:hover {
+  font-size: 50px;
+  color: black;
+  box-shadow: 5px 5px 5px 0px black;
+}
+/*=== Notification View===*/
+.form-control {
+
+  border-color: solid black;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+.form-control:hover,
+.form-control:focus {
+
+  border-color: solid black;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+.btn-menu {
+  color: white;
+  background-color: var(--color-danger);
+  width: 20%;
+
+  border-radius: 15px;
+}
+
+.btn-menus {
+  color: var(--bg-white);
+  background-color: var(--color-danger);
+  width: 40%;
+  border-radius: 15px;
+
+}
+
+.btn-menus:hover,
+.btn-menu:hover {
+  color: yellow;
+
+
+}
+label{
+  color: var(--text-danger);
+}
+
+/*===Profie Wrapper ====*/
+.Profile-Wrapper{
+  margin: 30px 0 0 0 ;
+}
+.Profile-Wrapper .list-group li{
+  color:var(--text-danger);
+  line-height: 1rem;
+  
+}
+.Profile-Wrapper .list-group li  .fa-user-alt{
+  margin-top:50px;
+  font-size: 80px;
+}
+
+.main-btn{
+  border-radius: 30px;
+  background-color: var(--color-danger);
+  color:var(--bg-white);
+  padding: 5px 25px 5px 25px;
+}
+
+.main-btn:hover{
+
+  color:yellow;
+box-shadow: none;
+}
+
+/* == Search  Notification ==*/
+.Searchnotification-Wrapper {
+  margin-top: 30px;
+}
+.Searchnotification-Wrapper form{
+
+  border-radius:25px;
+  position:relative;
+  box-shadow: none;
+ }
+
+.Searchnotification-Wrapper input{
+width:100%;
+height:100%;
+display:block;
+font-size:15px;
+border-radius:25px;
+padding:8px 40px 8px 20px;
+border:3px solid var(--text-danger);
+box-shadow: none;
+/* box-shadow:0 5px 8px 3px black */
+}
+.Searchnotification-Wrapper button{
+  position:absolute;
+  top:0;
+  right:0;
+  width:50px;
+  height:100%;
+  border-radius:50%;
+  cursor:pointer;
+  border:none;
+  background:none
+}
+.Searchnotification-Wrapper   .list-group .list-group-item  {
+  border: none;
+  text-decoration: none;
+  color: var(--color-danger);
+  
+  
+  }

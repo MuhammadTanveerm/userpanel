@@ -1,0 +1,40 @@
+
+@media (min-width: 1400px)
+{
+   
+}
+@media (min-width: 1200px)
+{
+
+
+}
+/*===========================================*/
+@media (min-width: 912px)
+{
+  
+
+
+
+
+
+
+}
+@media (max-width: 768px)
+{
+
+  .Searchnotification-Wrapper h1{
+    font-size: 1.5rem;
+  }
+  
+
+}
+@media (max-width: 414px)
+{
+    
+
+    /* Search Staff Member */
+      /*Member history design */
+    .Mdetail-Wrapper.mdr{
+        width: 100%;
+    }
+}
